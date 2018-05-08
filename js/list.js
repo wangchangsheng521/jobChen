@@ -21,13 +21,24 @@
     // }
     
     var oDeletes = document.querySelectorAll(".delete");//获取所有的删除标签
+
     var oLists = document.querySelectorAll("#List");
-    for(var i = 0;i<oDeletes.length;i++){
+
+
+    //这样循环遍历的var i 传进function里面的永远是最后一个数  -- 用let就可以了 
+    for(let i = 0;i<oDeletes.length;i++){
+
+
+
         oDeletes[i].onclick=function(){
+          console.log(this)
+          console.log(i)
             for(var j = 0;j<oLists.length;j++){
-                if (i==j) {
+                //循环遍历   List   并且获取List内部的index值是否和删除按钮的一致，，一致则删除
+                if (i==oLists[j].attributes.index.value) {
                     oLists[j].remove();
                 }
             }
+            
         }
     }
