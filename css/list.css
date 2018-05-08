@@ -1,0 +1,217 @@
+/*----------头部栏---------------*/
+/*#box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+ 
+}
+header{
+
+  margin: 0 auto;
+  width: 90%;
+  height: 1.15rem;
+  display: flex;
+  justify-content:space-between;
+  color: #2B2B2B;  
+}
+
+header .main{
+  line-height: 1.15rem; 
+  font-size: 0.32rem;
+}
+header .return{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+header .menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}*/
+/*-----------列表展示页--------------------*/
+/*#List,#List1{
+  width: 6.69rem;
+  height: 4.33rem;
+  margin: 0.3rem 0rem 0rem 0.41rem;
+}
+#List .img{
+  width: 6.69rem;
+  height: 3.39rem;
+  background: url(../images/list/img2.png) no-repeat;
+  background-size: 6.69rem 3.39rem;
+  position: relative;
+}
+#List .img .playStart,#List1 .img1 .playStart{
+  width: 0.94rem;
+  height: 0.93rem;
+  background: url(../images/list/play.png) no-repeat;
+  position: absolute;
+  left: 2.88rem;
+  top: 1.07rem;
+}
+#List1 .img1{
+    width: 6.69rem;
+    height: 3.39rem;
+    background: url(../images/list/img1.png) no-repeat;
+    background-size: 6.69rem 3.39rem;
+    position: relative;
+}
+#List .title,#List1 .title1{
+   width: 6.69rem;
+   height: 0.78rem;
+   background: rgba(249,249,249,0.14);
+   position: absolute;
+   left: 0;
+   bottom: 0rem;
+   font-size: 0.24rem;
+   color: #fff;
+   font-family: PingFangSC-Light;
+   line-height: 0.78rem;
+}
+#List .title .title-text,#List1 .title1 .title-text1{
+    margin: 0 0.33rem;
+    display: flex;
+    justify-content:space-between;
+}
+#List .title p,#List1 .title1 p{
+    height: 0.23rem;
+    display: inline;
+}*/
+/*-------------列表显示页的功能栏------------------*/
+/*#List .action-item,#List1 .action-item1{
+  width: 6.69rem;
+  height: 0.93rem;
+  background: #fff;
+}
+#List .action-item .action-items,#List1 .action-item1 .action-items1{
+    margin: 0 0.33rem;
+    height: 0.93rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#List .action-item .action-items p,#List1 .action-item1 .action-items1 p{
+    display: inline;
+    width: 1.1rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+#List .action-item .action-items p .watch,#List1 .action-item1 .action-items1 p .watch1{ 
+    width: 0.23rem;
+    height: 0.17rem;
+    line-height: 0.17rem;
+    background: url(../images/list/watch.png) no-repeat;
+}
+#List .action-item .action-items p span,#List1 .action-item1 .action-items1 p span{
+    font-size: 0.24rem;
+    font-family: PingFangSC-Regular;
+    color: #040404;
+    width: 0.69rem;
+    height: 0.26rem;
+}
+
+#List .action-item .action-items .delete,#List1 .action-item1 .action-items1 .delete1{
+    display: inline-block;
+    background: url(../images/list/delete.png) no-repeat;
+    width: 0.26rem;
+    height: 0.28rem;
+}*/
+
+/*-----------视频部分-------------*/
+#List{
+    width: 6.69rem;
+    height: 4.33rem;
+    margin: 0.3rem 0rem 0rem 0.41rem;
+    position: relative;
+    font-size: 0;
+}
+#List video{
+    width: 6.69rem;
+    height: 3.39rem;
+    object-fit:fill;  
+}
+#List .title{
+    width: 6.69rem;
+    height: 0.78rem;
+    background: rgba(249,249,249,0.14);
+    position: absolute;
+    left: 0;
+    bottom:0.94rem;
+    font-size: 0.24rem;
+    color: #fff;
+    font-family: PingFangSC-Light;
+    line-height: 0.78rem;
+}
+#List .title .title-text{
+    margin: 0 0.33rem;
+    display: flex;
+    justify-content:space-between;
+}
+#List .title p{
+    height: 0.23rem;
+    display: inline;
+}
+#List .playStart{
+    width: 0.94rem;
+    height: 0.93rem;
+    background: url(../images/list/play.png) no-repeat;
+    position: absolute;
+    left: 2.88rem;
+    top: 1.07rem;
+
+}
+/*------------视频中的操作部分-----------*/
+
+#List .action-item{
+  width: 6.69rem;
+  height: 0.93rem;
+  background: #fff;
+  /*margin-top: -0.35rem;*/
+}
+#List .action-item .action-items{
+    height: 0.93rem;
+    margin: 0 0.33rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#List .action-item .action-items p{
+    width: 1.1rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+#List .action-item .action-items p .watch{ 
+    width: 0.23rem;
+    height: 0.17rem;
+    line-height: 0.17rem;
+    background: url(../images/list/watch.png) no-repeat;
+}
+#List .action-item .action-items p span{
+    font-size: 0.24rem;
+    font-family: PingFangSC-Regular;
+    color: #040404;
+    width: 0.69rem;
+    height: 0.26rem;
+}
+#List .action-item .action-items .delete{
+    display: inline-block;
+    background: url(../images/list/delete.png) no-repeat;
+    width: 0.26rem;
+    height: 0.28rem;
+}
+
+/*-----------底部文字-------------*/
+#content-text{
+    color: #2B2B2B;
+    font-size: 0.24rem;
+    text-align: center;
+    font-family:PingFangSC-Light;
+    margin-top: 0.52rem;
+}
